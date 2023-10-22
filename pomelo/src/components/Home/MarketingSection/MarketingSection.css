@@ -1,0 +1,24 @@
+.marketing-section{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.marketing-card{
+    flex: 1;
+    padding: 8px;
+}
+
+.m-card-title{
+   font-weight: 550;
+   font-size: 23px;
+   margin: 0;
+}
+
+.m-card-text{
+    font-weight: 300;
+    font-size: 15px;
+}

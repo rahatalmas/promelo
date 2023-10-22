@@ -1,0 +1,21 @@
+.GetStarted-section-container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.getstart-menu-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.gs-menu-logo{
+    flex: 0.15;
+    padding: 10px;
+    text-align: center;
+}
+
+.gs-menu-content{
+    flex: 0.5;
+}

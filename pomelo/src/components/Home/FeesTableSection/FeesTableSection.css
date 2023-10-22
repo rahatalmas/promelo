@@ -1,0 +1,22 @@
+.FeesTable-section-container{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: roq;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.table-section{
+    flex: 1;
+}
+
+.no-fees-img-section{
+    flex: 1;
+    text-align: center;
+}
+
+.no-fees-img{
+    width: 400px;
+}

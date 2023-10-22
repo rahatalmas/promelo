@@ -1,0 +1,56 @@
+.welcome-section{
+   max-width: 1000px;
+   padding:50px;
+   margin: 50px auto;
+}
+
+.w-t-1{
+   
+}
+
+.w-h{
+   line-height: 1;
+   font-weight: 400;
+   font-size: 125px;
+   letter-spacing: 0;
+   margin: 0;
+}
+
+.w-p{
+   margin: 0;
+   width: 43%;
+   font-weight: 400;
+   font-size: 20px;
+   padding: 0;
+   margin: 0;
+}
+
+.w-t-2{
+   margin-top: 100px;
+}
+
+.w-h-2{
+   font-weight: 400;
+   margin: 0;
+   padding: 0;
+}
+
+.w-h-2span{
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.w-input-section{
+  
+}
+
+.input-s-para{
+   width: 50%;
+   font-weight: 300;
+   margin: 0;
+   padding: 0;
+   font-size: 12px;
+
+}

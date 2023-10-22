@@ -1,0 +1,17 @@
+.HowItWorks-section-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.hiw-text-sec{
+    flex: 1;
+}
+.hiw-img-sec{
+    flex: 1;
+    text-align: center;
+}

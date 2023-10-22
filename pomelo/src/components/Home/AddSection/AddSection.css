@@ -1,0 +1,25 @@
+.Add-section-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ad-img-container{
+    flex:1;
+}
+.ad-text-container{
+    flex: 1;
+}
+
+.card-service-logos{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-service-logo{
+    padding-top: 20px;
+    padding-right: 20px;
+}
