@@ -4,7 +4,7 @@ const InThePressSection = () =>{
     return(
         <>
           <div className="in-the-press-section">
-             
+             <PressCard/>
           </div>
         </>
     );

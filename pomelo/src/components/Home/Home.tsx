@@ -5,6 +5,8 @@ import MarketingSection from "./MarketingSection/MarketingSection";
 import AddSection from "./AddSection/AddSection";
 import HowItWorksSection from "./HowItWorksSection/HowItWorksSection";
 import GetStartedSection from "./GetStartedSection/GetStartedSection";
+import InThePressSection from './InThePressSection/InThePressSection';
+
 const Home = () =>{
     return(
         <>
@@ -45,7 +47,7 @@ const Home = () =>{
                     <img  style={{padding:"20px"}} src='./assets/partner2.svg'/>
                   </div>
               </div>
-
+              <InThePressSection/>
               
 
           </div>
