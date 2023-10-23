@@ -12,6 +12,9 @@ const FeesTableSection = () => {
               <th className="table-col" >FX Rate</th>
               <th className="table-col" style={{borderTopRightRadius:"20px"}}>Fee</th>
             </tr>
+            <div className="table-hover-row">
+              
+            </div>
             <tr className="table-row">
               <th className="table-col">Remitly</th>
               <th className="table-col">₱54.07</th>
