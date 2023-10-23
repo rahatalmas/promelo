@@ -5,7 +5,7 @@ const WelcomeSection = () =>{
         <>
           <div className="welcome-section">
              <div className='w-t-1'>
-                <h1 className='w-h'>Money Transfer Solved</h1>
+                <h1 className='w-h'>Money Transfer <br/> Solved</h1>
                 <p className='w-p'>Send a Pomelo card to the Philippines and never worry about transfer fees and cash pickups again.</p>
              </div>
 

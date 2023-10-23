@@ -1,0 +1,26 @@
+.faq-card{
+
+    border: 0.1px solid rgb(205, 204, 204);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 15px;
+}
+.faq-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faq-h1{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+.minus{
+    font-size: 30px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+
+  }

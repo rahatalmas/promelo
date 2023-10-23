@@ -1,7 +1,7 @@
 .FeesTable-section-container{
     margin: 0 auto;
     max-width: 1000px;
-    padding: 20px 0px;
+    padding: 20px 10px;
     display: flex;
     flex-direction: roq;
     align-items: center;
@@ -10,6 +10,7 @@
 
 .table-section{
     flex: 1;
+    padding: 25px;
 }
 
 .no-fees-img-section{
@@ -18,5 +19,83 @@
 }
 
 .no-fees-img{
-    width: 400px;
+    width: 350px;
+}
+
+.table{
+    margin: 0px;
+    padding: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+.table-row1{
+    background-color: rgb(41, 40, 77);
+    color: white;
+}
+.table-row{
+}
+.table-col{
+    padding:15px 30px;
+    margin: 0px;
+}
+.table-section-head{
+    font-size: xx-large;
+    color: white;
+
+}
+.table-section-psg{
+    font-size: 12px;
+    color: white;
+}
+
+@media only screen and (max-width: 850px) {
+    .FeesTable-section-container{
+        margin: 0 auto;
+        max-width: 1000px;
+        padding:10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .table-section{
+        flex: 1;
+        padding: 0px;
+    }
+    
+    .no-fees-img-section{
+        flex: 1;
+        text-align: center;
+    }
+    .no-fees-img{
+        width: 250px;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .FeesTable-section-container{
+        margin: 0 auto;
+        max-width: 1000px;
+        padding:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .table-section{
+        flex: 1;
+        padding: 0px;
+    }
+    
+    .no-fees-img-section{
+        flex: 1;
+        text-align: center;
+    }
+    .no-fees-img{
+        width: 350px;
+    }
+    
 }

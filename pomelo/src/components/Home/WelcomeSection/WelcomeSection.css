@@ -54,3 +54,35 @@
    font-size: 12px;
 
 }
+
+
+@media only screen and (max-width: 1300px) {
+   body {
+     
+   }
+   .w-h{
+      line-height: 1;
+      font-weight: 400;
+      font-size: 75px;
+      letter-spacing: 0;
+      margin: 0;
+   }
+   .w-p{
+      margin: 0;
+      width: 45%;
+      font-weight: 300;
+      font-size: 15px;
+      padding: 0;
+      margin: 0;
+   }
+   
+ }
+
+ @media only screen and (max-width: 600px) {
+   .welcome-section{
+      max-width: 1000px;
+      padding:50px 10px;
+      margin: 50px auto;
+   }
+   
+ }
