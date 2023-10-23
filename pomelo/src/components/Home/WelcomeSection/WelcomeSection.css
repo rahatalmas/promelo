@@ -86,3 +86,27 @@
    }
    
  }
+
+ 
+ .w-input-section input {
+   border-top-left-radius: 10px;   /* Adjust the value according to your design */
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+   border: 1px solid red;         /* You might want to set this to your design's border color */
+   padding: 10px;
+   /* Removing default border styles for clarity */
+   border-right: none;            /* This ensures there's no double border */
+}
+
+.w-input-section button {
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+   border: 1px solid red;
+   padding: 10px 20px;            /* Adjust padding as per your design */
+   /* Removing default border styles for clarity */
+   border-left: none;             /* This ensures there's no double border */
+   margin-left: -1px;             /* This ensures the button is directly adjacent to the input without any space */
+}

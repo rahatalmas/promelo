@@ -1,5 +1,5 @@
 import "./PressCard.css";
-
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const PressCard = () => {
   return (
     <>
@@ -16,7 +16,9 @@ const PressCard = () => {
               <p>
                 the name of the card holder is john, who have earned 10 and etc.
               </p>
-              <h3>Finovate</h3>
+              <div style={{display:"flex",alignItems:"center",justifyContent:"space-between"}}>
+              <h3>Finovate</h3>  <span><ArrowForwardIcon/></span>
+              </div>
             </div>
           </div>
         </div>

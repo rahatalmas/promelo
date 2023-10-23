@@ -1,6 +1,8 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
+import { AiFillAppler } from 'react-icons/ai';
+
 const Footer = () => {
   return (
     <>
@@ -35,8 +37,8 @@ const Footer = () => {
           </div>
           <div className="site-links">
             <h3>Get the app</h3>
-            <button className="f-btn">Play Store</button>
-            <button className="f-btn">App Store</button>
+            <button className="f-btn"><img style={{height:"25px",width:"25px",margin:"auto",paddingRight:"10px"}} src="./assets/ps.png"/>Play Store</button>
+            <button className="f-btn"><img style={{height:"25px",width:"25px",margin:"auto",paddingRight:"10px"}} src="./assets/apple.png"/>App Store</button>
           </div>
         </div>
         <div className="footer-texts">
