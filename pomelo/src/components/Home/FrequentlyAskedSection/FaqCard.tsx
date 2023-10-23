@@ -15,7 +15,7 @@ const FaqCard = () => {
       >
         <div className="faq-head">
           <h1 className="faq-h1">Why do you ask for my SSN during signup?</h1>
-          <span className="minus">{spread ? "-" : "+"}</span>
+          <span className="minus" style={{color:" rgb(240,71,122)"}}>{spread ? "-" : "+"}</span>
         </div>
         <div style={spread ? { display: "block" } : { display: "none" }}>
           <p>

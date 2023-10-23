@@ -35,3 +35,8 @@
     background-color: transparent;
     color: whitesmoke;
 }
+
+.f-btn:hover{
+    background-color: white;
+    color: black;
+}

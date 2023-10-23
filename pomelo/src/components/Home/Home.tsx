@@ -18,8 +18,10 @@ const Home = () => {
         </div>
         <div className="review-section">
           <div className="review-card">
-            <h1 className="review-card-name">John SimBajon</h1>
-            <h1 className="review-card-star">*****</h1>
+          <div className="nameandstar">
+              <h1 className="review-card-name">John SimBajon</h1>
+              <h1 className="review-card-star"><img src="./assets/star.svg"/></h1>
+            </div>
             <p className="review-text">
               “Pomelo creates convenience where there is none. I wish our family
               had Pomelo back in the 90’s instead of my parents continuously
@@ -27,21 +29,21 @@ const Home = () => {
             </p>
           </div>
           <div className="review-card">
-            <h1 className="review-card-name">John SimBajon</h1>
-            <h1 className="review-card-star">*****</h1>
+          <div className="nameandstar">
+              <h1 className="review-card-name">Danette Gonzales</h1>
+              <h1 className="review-card-star"><img src="./assets/star.svg"/></h1>
+            </div>
             <p className="review-text">
-              “Pomelo creates convenience where there is none. I wish our family
-              had Pomelo back in the 90’s instead of my parents continuously
-              giving fees to Western Union.”
+              “The Pomelo Card is a great help for my family. Very convenient for them. I’m very satisfied. Excellent features and excellent service at all times!”
             </p>
           </div>
           <div className="review-card">
-            <h1 className="review-card-name">John SimBajon</h1>
-            <h1 className="review-card-star">*****</h1>
+            <div className="nameandstar">
+              <h1 className="review-card-name">Ghiena-lin Dino</h1>
+              <h1 className="review-card-star"><img src="./assets/star.svg"/></h1>
+            </div>
             <p className="review-text">
-              “Pomelo creates convenience where there is none. I wish our family
-              had Pomelo back in the 90’s instead of my parents continuously
-              giving fees to Western Union.”
+            “They delivered straight to my door step. Just completed all the requirement needs as a receiver, the process was so easy and very quick.”
             </p>
           </div>
         </div>

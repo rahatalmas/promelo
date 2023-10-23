@@ -30,11 +30,39 @@
     font-size: 20px;
 }
 
+.menu-icon-con{
+    display: none;
+}
+
+.res-nav-items-close{
+    display: none;
+}
+
 @media only screen and (max-width: 1300px) {
     .pomelo-logo{
         margin-left: 10px;
     }
+    .menu-icon-con{
+      display: block;
+      padding-right: 40px;
+     }
+     .menu-icon{
+       color: rgb(240,71,122);
+    }
     .nav-items{
         display: none;
+    }
+    .res-nav-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+        background-color: white;
+        height: 100vh;
+    }
+    .res-nav-item{
+        text-decoration: none;
+        color: red;
+        padding: 10px;
     }
   }

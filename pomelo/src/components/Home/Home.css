@@ -1,5 +1,5 @@
 .home-container{
-   margin: 0 auto;
+   margin: 25px auto;
    width: 100%;
 }
 .section-container{
@@ -130,7 +130,7 @@
         position: absolute;
         right: 0;
         bottom: 330px;
-        width: 210px;
+        width: 190px;
     }
     
     .w-img2{
@@ -138,7 +138,7 @@
         bottom:250px;
         right: 0;
         z-index: -1;
-        width: 300px;
+        width: 270px;
     }
 
     .review-section{

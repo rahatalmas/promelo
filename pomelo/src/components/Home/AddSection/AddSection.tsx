@@ -10,7 +10,7 @@ const AddSection = () =>{
                <div className='ad-text-container'>
                     <h1 style={{margin:0,fontSize:"40px"}}>Pomelo Card +</h1>
                     <h1 style={{margin:0,fontSize:"40px"}}>Pomelo App = </h1>
-                    <h1 style={{margin:0,fontSize:"40px",color:"pink"}}>Pomelo Power</h1>
+                    <h1 style={{margin:0,fontSize:"40px",color:"rgb(240,71,122)"}}>Pomelo Power</h1>
                     <p style={{fontWeight:300}}>
                     We've reinvented money transfer using the power of credit. Apply now to send a Pomelo Mastercard™ to anyone, anywhere in the Philippines. They can spend it anytime, anywhere Mastercard is accepted. Send now, pay later, zero APR. <br/>
                     <br/>With the Pomelo App, you have full control. Decide how much credit to share with each person. Pause at any time. Monitor every transaction. Pay it once a month, even put it on autopay.
