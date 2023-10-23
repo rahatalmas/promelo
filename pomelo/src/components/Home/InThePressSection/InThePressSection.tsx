@@ -1,5 +1,7 @@
 import "./InThePressSection.css";
 import PressCard from "./PressCard";
+import { Swiper,SwiperSlide } from "swiper/react";
+import 'swiper/css';
 
 const InThePressSection = () => {
   return (
@@ -11,10 +13,16 @@ const InThePressSection = () => {
           In The Press
         </h1>
         <div className="in-the-press-section">
-          <PressCard />
-          <PressCard />
-          <PressCard />
-          <PressCard />
+          <Swiper 
+          spaceBetween={50}
+                 slidesPerView={3}
+                  
+          >
+            <SwiperSlide><PressCard/></SwiperSlide>
+            <SwiperSlide><PressCard/></SwiperSlide>
+            <SwiperSlide><PressCard/></SwiperSlide>
+            <SwiperSlide><PressCard/></SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </>
