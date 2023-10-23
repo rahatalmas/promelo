@@ -7,7 +7,7 @@ const GetStartedSection = () =>{
               <h1 style={{textAlign:"center",fontSize:"45px"}}>How to get Started:</h1>
               <div className='getstart-menu-item'>
                   <div className='gs-menu-logo'>
-                      logo
+                      <img src='./assets/l1.png'/>
                   </div>
                   <div className='gs-menu-content'>
                       <h1 style={{fontSize:"25px",fontWeight:500}}>1.Apply</h1>
@@ -16,7 +16,7 @@ const GetStartedSection = () =>{
               </div>
               <div className='getstart-menu-item'>
                   <div className='gs-menu-logo'>
-                      logo
+                     <img src='./assets/l2.png'/>
                   </div>
                   <div className='gs-menu-content'>
                       <h1 style={{fontSize:"25px",fontWeight:500}}>2.Invite</h1>
@@ -25,7 +25,7 @@ const GetStartedSection = () =>{
               </div>
               <div className='getstart-menu-item'>
                   <div className='gs-menu-logo'>
-                      logo
+                      <img src='./assets/l3.png'/>
                   </div>
                   <div className='gs-menu-content'>
                       <h1 style={{fontSize:"25px",fontWeight:500}}>3.Spend</h1>

@@ -6,8 +6,8 @@
 .site-maping{
     max-width: 1000px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     justify-content: space-between;
     align-items: center;
 }
@@ -34,9 +34,22 @@
     border: 1px solid whitesmoke;
     background-color: transparent;
     color: whitesmoke;
+    font-size: large;
 }
 
 .f-btn:hover{
-    background-color: white;
-    color: black;
+    background-color: rgb(238, 235, 235);
+    color: rgb(35, 247, 247);
+}
+
+@media only screen and (max-width: 850px) {
+    .site-maping{
+        max-width: 1000px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto;
+
+        justify-content: space-around;
+        align-items: center;
+    }
 }

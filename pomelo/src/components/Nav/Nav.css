@@ -29,7 +29,9 @@
     font-weight: 300;
     font-size: 20px;
 }
-
+.nav-item:hover{
+    color: rgb(240,71,122);
+}
 .menu-icon-con{
     display: none;
 }
