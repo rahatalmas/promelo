@@ -12,7 +12,7 @@ const WelcomeSection = () =>{
              <div className='w-t-2'>
                 <h1 className='w-h-2'>$1 →₱60</h1>
                 <span className='w-h-2span'>*Available for a limited time</span>
-                <div className='w-input-section'><input type='text' placeholder='1235***'/><button>Sign Up</button></div>
+                <div className='w-input-section'><input/><button>Sign Up</button></div>
                 <p className='input-s-para'>Applies to first $500 spent in 45 days for new customers. Rates applies to PHP transactions where Mastercard is accepted. Rates subject to change. See Terms and Conditions.</p>
              </div>
           </div>
